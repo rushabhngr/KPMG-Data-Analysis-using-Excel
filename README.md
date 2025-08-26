@@ -1,47 +1,64 @@
 # KPMG Data Analysis using Excel  
 
-## Project Overview  
-This project focuses on analyzing **customer, transaction, and demographic data** to uncover key insights into business performance and customer behavior. The analysis was conducted in Microsoft Excel through structured tasks including **data cleaning, segmentation, transaction analysis, and Customer Lifetime Value (CLV) calculation**.  
+## Overview  
+This project analyzes customer demographics, transactions, and new customer data to provide insights into business performance and customer behavior. Using **Excel** for data cleaning, analysis, and visualization, the project demonstrates practical data management skills applied to a real-world business case.  
 
 ---
 
-## Key Highlights  
--  **Data Cleaning & Standardization** – Removed duplicates, corrected anomalies, and formatted data consistently.  
--  **Customer Segmentation** – Grouped customers by **wealth segment, gender, and industry**, identifying key customer groups and behavioral patterns.  
--  **Sales & Product Analysis** – Analyzed **monthly sales trends, product performance, and purchase patterns** to reveal core revenue drivers.  
--  **New Customer Insights** – Estimated potential revenue and analyzed the link between property valuation and customer wealth.  
--  **Customer Lifetime Value (CLV)** – Calculated CLV using transaction and tenure data, highlighting **high-value customer segments**.  
+## Dataset  
+The project uses the **KPMG Dataset**, consisting of four parts:  
 
- **Outcome:** Generated an **executive summary with actionable recommendations**, enabling better targeting of profitable customer groups, product optimization, and potential business expansion strategies.  
-
----
-
-## Repository Structure  
+1. **Customer Address Dataset** – Customer address and property valuation.  
+2. **Customer Demographic Dataset** – Personal, job, and purchase behavior details.  
+3. **Transactions Dataset** – Customer transactions, products, and pricing.  
+4. **New Customer List Dataset** – Potential new customer demographics and property details.  
 
 ---
 
-## Tools & Features Used  
-- **Microsoft Excel**: Pivot Tables, Charts, Conditional Formatting  
-- **Formulas**: `VLOOKUP`, `SUMIFS`, `AVERAGEIF`, `COUNTIF`, `RANK`  
-- **Data Visualization**: Line charts, Column charts, Pie charts  
+## Project Tasks  
+
+### **Task 1: Data Cleaning**  
+- Removed duplicates, standardized missing values, corrected gender anomalies.  
+- Ensured consistent date formats, job titles, and state names.  
+
+### **Task 2: Customer Segmentation**  
+- Segmented customers by wealth segment, gender, and job industry.  
+- Analyzed average tenure, purchase behavior, and industry distribution.  
+
+### **Task 3: Transaction Analysis**  
+- Identified sales trends and seasonal patterns.  
+- Evaluated brand and product line performance.  
+- Found top 10 customers and analyzed purchase frequency.  
+
+### **Task 4: New Customer Insights**  
+- Analyzed demographics and location of new customers.  
+- Correlated property valuation with wealth segment.  
+- Estimated potential revenue from new customers.  
+
+### **Task 5: Customer Lifetime Value (CLV) Analysis**  
+- Calculated CLV using:  
+  \[
+  CLV = (APV \times PF) \times CL
+  \]  
+- Analyzed CLV across wealth segments, gender, and industries.  
+
+### **Task 6: Executive Summary & Recommendations**  
+- Summarized insights from customer behavior and transactions.  
+- Recommended strategies for:  
+  - Targeting high-value customer segments.  
+  - Expanding into profitable states/regions.  
+  - Improving product offerings based on sales performance.  
 
 ---
 
-## Key Insights  
-- Premium and High Net Worth customers show the **highest CLV** and revenue contribution.  
-- Certain industries (e.g., Finance, Manufacturing) are strongly linked with high-value customers.  
-- Online orders demonstrated **steady growth and higher transaction values**.  
-- Seasonal sales spikes suggest opportunities for targeted campaigns.  
+## 🛠 Tools & Skills Used  
+- **MS Excel** – Data cleaning, pivot tables, charts, and CLV calculation.  
+- **Data Analysis** – Segmentation, aggregation, and trend analysis.  
+- **Business Insights** – Customer segmentation, revenue estimation, and strategy recommendations.  
 
 ---
 
-## Business Impact  
-This project demonstrates the ability to:  
-- Clean and preprocess real-world datasets.  
-- Apply advanced Excel functions for analysis and reporting.  
-- Generate actionable business insights from raw data.  
-- Communicate findings through structured dashboards and summaries.  
-
----
-
- If you found this project interesting, feel free to check out my other repositories on **Python data analysis, machine learning, and NLP**.  
+## Outcome  
+- Delivered actionable insights into customer demographics, transactions, and potential new customers.  
+- Demonstrated ability to clean, manage, and analyze complex datasets.  
+- Built a foundation for data-driven decision-making in customer strategy.  
